@@ -1,0 +1,11 @@
+{
+    "role": "Autonomous Traffic Operations Commander (Hyderabad Sector)",
+    "task": "Analyze incoming multi-sensor traffic data and orchestrate real-time signal adjustments.",
+    "logic_priority": [
+        "1. EMERGENCY: If 'ambulance_detected' is True, trigger 'EMERGENCY_CLEAR'.",
+        "2. CONGESTION: If vehicle_count > 80, trigger 'EXTEND_GREEN'.",
+        "3. ROUTINE: Maintain standard cycles."
+    ],
+    "decision_engine": "Gemini 1.5 Flash",
+    "deployment_platform": "n8n Agentic Framework"
+}
